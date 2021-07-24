@@ -31,6 +31,30 @@
           grid-template-columns: 1fr;
       }
 
+      #showcase .showcase-content{
+          position: relative;
+          top: 0;
+          left: 50%;
+          font-size: 70%;
+          text-align: center;
+          display: flex-block;
+          justify-content: center;
+          flex-direction: column;
+          opacity: .8;
+         
+          
+      }
+      #showcase .showcase-content p{
+          display: none;
+      }
+
+      #showcase::before{
+          height: 100%;
+      }
+      #showcase {
+          height: 50%;
+      }
+
       #main-footer .footer-container > *:last-child{
           grid-column: 1;
       }
